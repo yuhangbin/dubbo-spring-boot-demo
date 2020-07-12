@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: consumer
+
+demo:
+    service:
+      version: 1.0.0
+
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    file: ./dubbo.cache
